@@ -1,0 +1,31 @@
+{
+  "name": "nsfwd",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0zl/nsfwd.git"
+  },
+  "keywords": [
+    "rest-api",
+    "nsfw.js",
+    "shiro"
+  ],
+  "author": "ize (ize@cock.li)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/0zl/nsfwd/issues"
+  },
+  "homepage": "https://github.com/0zl/nsfwd#readme",
+  "description": "",
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^3.14.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "got": "^11.8.3",
+    "nsfwjs": "^2.4.1"
+  }
+}
