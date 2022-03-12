@@ -32,6 +32,7 @@
 
                 url = decodeURIComponent(url)
                 res.json(respondObject(true, await classifyImage(url)))
+                console.log(`Requested ${url}`)
             } catch (err) {
                 res.json(respondObject(false, err.message))
             }
